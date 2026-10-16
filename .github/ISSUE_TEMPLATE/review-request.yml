@@ -1,0 +1,29 @@
+name: Request a walkthrough or source review
+description: Contact Karla about the VoiceLab project.
+title: "VoiceLab review request"
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for your interest. This issue is public. Do not include credentials, private email addresses, confidential hiring details, voice recordings, or other sensitive information."
+  - type: input
+    id: organization
+    attributes:
+      label: Organization or public profile
+      description: Optional public organization name or profile link.
+  - type: dropdown
+    id: request
+    attributes:
+      label: Review format
+      options:
+        - Live product walkthrough
+        - Confidential source review
+        - Engineering discussion
+    validations:
+      required: true
+  - type: textarea
+    id: focus
+    attributes:
+      label: What would you like to review?
+      description: Mention the workflows or engineering decisions that interest you.
+    validations:
+      required: true
