@@ -16,6 +16,12 @@ VoiceLab brings together a desktop interface, a local inference service, and dur
 
 This is a personal project, not an ElevenLabs product or an affiliated integration showcase. The application was implemented with AI assistance using third-party inference libraries and pretrained models. It does not claim original research or training of those models.
 
+## Request access to the private source
+
+Recruiters and technical reviewers can **[request access to the private VoiceLab repository](https://github.com/K-Diamonds/VoiceLab-showcase/issues/new?template=repository-access.yml)**.
+
+Include your GitHub username, review purpose, and expected review duration. Karla Offerman reviews each request and may invite the approved account to **K-Diamonds/VoiceLab**. Access is not automatic; the source repository remains private. The request is a **public issue**, so include only information you are comfortable publishing.
+
 ## What it does
 
 | Workflow | Current behavior |

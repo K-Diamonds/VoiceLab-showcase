@@ -1,0 +1,47 @@
+name: Request access to the private VoiceLab repository
+description: Ask Karla Offerman for permission to review VoiceLab's private source.
+title: "VoiceLab repository access request"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Request access to the private **K-Diamonds/VoiceLab** source repository.
+        Karla Offerman reviews requests individually. Submitting this form does not grant access.
+        **This issue is public.** Use public profile information only; do not include passwords, tokens, email addresses, confidential hiring details, or private documents.
+  - type: input
+    id: github_username
+    attributes:
+      label: GitHub username
+      description: The GitHub account you would like invited if your request is approved.
+      placeholder: "@your-username"
+    validations:
+      required: true
+  - type: input
+    id: organization
+    attributes:
+      label: Organization or public professional profile
+      description: Optional public company name or profile link.
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Why are you requesting source access?
+      description: Describe your review purpose and the areas you would like to inspect, without confidential details.
+    validations:
+      required: true
+  - type: dropdown
+    id: duration
+    attributes:
+      label: Expected review duration
+      options:
+        - Up to one week
+        - Up to one month
+        - To be discussed
+    validations:
+      required: true
+  - type: checkboxes
+    id: acknowledgement
+    attributes:
+      label: Access conditions
+      options:
+        - label: I understand that access requires the owner's approval and the source is proprietary, not open source.
+          required: true
