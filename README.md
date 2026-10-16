@@ -2,6 +2,10 @@
 
 **A local-first voice-production studio by Karla Offerman.**
 
+### [Request access to the private VoiceLab repository →](https://github.com/K-Diamonds/VoiceLab-showcase/issues/new?template=repository-access.yml)
+
+This link opens the request form. Source access requires Karla’s approval.
+
 Record a voice reference, turn scripts into speech, and produce stories, transcripts, dubs, and audiobooks from one workspace. Offline processing is the default; ElevenLabs is an optional, explicitly selected cloud engine.
 
 **Status:** working Apple Silicon prototype · **Source:** private / proprietary · **Last updated:** October 2026
